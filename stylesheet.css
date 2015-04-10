@@ -1,0 +1,49 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+}
+
+aside {
+	position: fixed;
+	height: 100%;
+	width: 130px;
+	margin: 0px;
+	background-color: #4466aa;
+}
+
+#titulo {
+	color: #ffffff;
+	margin: auto;
+	width: 50%;
+}
+
+#flotante {
+	float: left;
+	height: 30%;
+	margin-bottom: -50%;
+}
+
+nav {
+	width: 80%;
+	height: 40%;
+	margin: auto;
+	background-color: #ffffff;
+	font-size: 60%;
+	clear: left;
+	list-style-type: none;
+}
+
+.contenedor {
+	height: 100%;
+	margin-left: 130px;
+	display: inline-flex;
+	align-items:center;
+}
+
+.libro {
+/*	display: inline-block;*/
+	width: 250px;
+	height: 250px;
+	border: 1px solid #00ccaa;
+	font-size: 60%;
+}
